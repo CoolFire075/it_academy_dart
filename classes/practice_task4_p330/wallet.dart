@@ -44,7 +44,7 @@ class Wallet {
       MyCurrency.Rub => 'Rub',
       MyCurrency.Yuan => 'Yuan',
     };
-    if (currencyChoose == 'Rub') {
+    if (myCurrency == MyCurrency.Rub) {
       for (int i = 0; i < list.length; i++) {
         if (list[i] is Rub) amountOfCurrency += list[i].val;
       }
